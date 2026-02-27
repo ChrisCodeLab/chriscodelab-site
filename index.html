@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChrisCodeLab</title>
+  <meta name="description" content="Christopher — backend developer building real-world software and sharing what I learn.">
+
+ <style>
+  :root {
+    --bg: #0f172a;
+    --card: #111827;
+    --accent: #38bdf8;
+    --accent-hover: #0ea5e9;
+    --text: #e5e7eb;
+    --muted: #94a3b8;
+    --border: #1f2937;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  header {
+    text-align: center;
+    padding: 100px 20px 50px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+  }
+
+  header p {
+    font-size: 1.1rem;
+    color: var(--muted);
+  }
+
+  h2 {
+    color: var(--accent);
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.8rem;
+  }
+
+  .section {
+    padding: 20px 20px;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .about-text {
+    color: #cbd5e1;
+    text-align: left;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 15px 8px;
+    padding: 12px 26px;
+    background: var(--accent);
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.2s ease;
+  }
+
+  .btn:hover {
+    background: var(--accent-hover);
+    transform: translateY(-1px);
+  }
+
+  .projects {
+    margin-top: 30px;
+  }
+
+  .project {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 28px;
+    border-radius: 12px;
+    margin-bottom: 22px;
+    transition: 0.2s ease;
+  }
+
+  .project:hover {
+    border-color: var(--accent);
+    transform: translateY(-3px);
+  }
+
+  .project strong {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .project p {
+    color: #cbd5e1;
+    text-align: left;
+    margin: 0;
+    white-space: pre-line;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.9rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.2rem;
+    }
+
+    .section {
+      padding: 40px 16px;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>ChrisCodeLab</h1>
+  <p>Backend Developer • Builder • Learning in Public</p>
+
+  <a href="https://www.linkedin.com/in/chriscodelab/" class="btn">LinkedIn</a>
+  <a href="https://github.com/ChrisCodeLab" class="btn">GitHub</a>
+  <a href="https://leetcode.com/u/ChrisCodeLab/" class="btn">LeetCode</a>
+  <a href="https://www.youtube.com/@ChrisCodeLab" class="btn">YouTube</a>
+
+</header>
+
+<section class="section">
+  <h2>About</h2>
+  <p>
+    I'm Christopher, a Backend Software Engineer with 3.7 years of experience building and deploying microservices for large-scale financial platforms. Strong expertise in Java, Spring Boot, REST APIs, and Oracle with hands-on experience in AWS-hosted production systems and CI/CD-driven deployments using Jenkins and GitHub.
+    Currently working at TCS as a Systems Engineer, contributing to a public domain financial platform hosting 38 microservices. Involved in designing and developing backend services, building internal monitoring and alert visualization tooling, and owning production releases including major/minor deployments, hotfix rollouts, and rollback procedures.
+    Experienced in building secure and scalable APIs consumed by web services and third-party vendors. Hands-on with AWS services (ECS), application configuration, log analysis, and production issue debugging.
+    Strong foundation in Data Structures and Algorithms, Object-Oriented Programming, and backend system design. Recognized with multiple performance awards including the Star Performer Award (Nov 2024).
+  </p>
+</section>
+
+<section class="section">
+  <h2>Projects</h2>
+  <div class="projects">
+
+    <div class="project">
+      <strong>1. Veridex</strong>
+      <p>Veridex preserves audit evidence as immutable, review-ready records across audit cycles.
+
+    Veridex is an evidence-first audit platform designed to bring structure, traceability, and permanence to compliance workflows. Instead of layering complexity onto regulations, Veridex focuses on what auditors ultimately require: complete, attributable, and verifiable proof.
+    At its core, Veridex provides a secure system of record for audit evidence. Every artifact — whether a document, report, log, screenshot, or attestation — is stored with full version history, timestamps, and ownership metadata. Nothing is silently edited. Nothing is overwritten. Every change is preserved.
+    By structuring evidence around audit cycles and maintaining append-only history, Veridex ensures that organizations can:
+    
+      • Track evidence requests and ownership clearly
+      • Preserve complete version history
+      • Reuse and reference prior audit artifacts
+      • Generate consistent, auditor-ready exports
+      • Maintain defensible records over time
+
+    Veridex is regulation-agnostic by design. It does not attempt to interpret compliance frameworks or enforce policy logic. Instead, it provides a durable foundation for audit proof — adaptable across industries and evolving regulatory requirements.
+    Built on the principle that trust comes from integrity and history, Veridex helps organizations approach audits with confidence, consistency, and control.</p>
+    </div>
+
+    <div class="project">
+      <strong>2. Student Project Showcase Platform</strong>
+      <p>Building a system that enables students to share 5-minute project explanations, making ideas discoverable, encouraging originality, and helping recruiters identify talent beyond resumes.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Tech Stack</h2>
+  <p>
+    Languages: Java, Python, SQL <br>
+    Frameworks: Spring Boot, Spring MVC, Spring Core <br>
+    Databases: Oracle, MySQL, PostgreSQL <br>
+    Technologies & Tools: AWS, Microservices, REST API, Jenkins, GitHub, AppDynamics, Jira, Confluence <br>
+    Core: Data Structures & Algorithms, OOP, DBMS <br>
+  </p>
+</section>
+
+<footer>
+  © 2026 ChrisCodeLab
+</footer>
+
+</body>
+</html>
