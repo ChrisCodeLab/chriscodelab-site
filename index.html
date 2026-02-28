@@ -1,275 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ChrisCodeLab</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChrisCodeLab</title>
 
-  <link rel="canonical" href="https://chriscodelab.com/">
-  <meta name="description" content="Christopher — Backend Engineer specializing in Java, Spring Boot, and distributed systems. Building scalable backend platforms.">
-  <meta name="author" content="Christopher M">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="chriscodelab_favicon_ccl.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="chriscodelab_favicon_ccl.png">
-  <link rel="apple-touch-icon" href="chriscodelab_favicon_ccl.png">
-
-<style>
-  :root {
-    --bg: #f8fafc;
-    --card: #ffffff;
-    --accent: #0ea5e9;
-    --accent-hover: #0284c7;
-    --text: #0f172a;
-    --muted: #475569;
-    --border: #e2e8f0;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-
-  * { box-sizing: border-box; }
-
-  body {
-    margin: 0;
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.7;
-  }
-
-  /* Sticky Nav */
-  nav {
-    position: sticky;
-    top: 0;
-    background: rgba(255,255,255,0.85);
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid var(--border);
-    z-index: 100;
-  }
-
-  .nav-container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 14px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .nav-links a {
-    color: var(--muted);
-    margin-left: 20px;
-    text-decoration: none;
-    font-weight: 500;
-  }
-
-  .nav-links a:hover {
-    color: var(--accent);
-  }
-
-  header {
-    text-align: center;
-    padding: 100px 20px 60px;
-  }
-
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    letter-spacing: -1px;
-  }
-
-  header p {
-    font-size: 1.2rem;
-    color: var(--muted);
-    max-width: 600px;
-    margin: auto;
-  }
-
-  .section {
-    padding: 25px 20px;
-  }
-
-  .container {
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 14px;
-  }
-
-  h2 {
-    color: var(--accent);
-    margin-bottom: 14px;
-    font-size: 1.8rem;
-  }
-
-  .btn {
-    display: inline-block;
-    margin: 15px 8px;
-    padding: 12px 26px;
-    background: var(--accent);
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: 0.2s ease;
-  }
-
-  .btn:hover {
-    background: var(--accent-hover);
-    transform: translateY(-2px);
-  }
-
-  .project {
-    background: var(--card);
-    border: 1px solid var(--border);
-    padding: 28px;
-    border-radius: 12px;
-    margin-bottom: 22px;
-    transition: 0.25s ease;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-  }
-
-  .project:hover {
-    border-color: var(--accent);
-    transform: translateY(-4px);
-    box-shadow: 0 14px 28px rgba(0,0,0,0.08);
-  }
-
-  .project strong {
-    font-size: 1.25rem;
-    color: var(--accent);
-  }
-
-  .project p {
-    color: var(--muted);
-    white-space: pre-line;
-  }
-
-
-  footer {
-    text-align: center;
-    padding: 40px 20px;
-    color: var(--muted);
-    border-top: 1px solid var(--border);
-    margin-top: 40px;
-  }
-
-  @media (max-width: 768px) {
-    h1 { font-size: 2.2rem; }
-    .nav-links a { margin-left: 12px; }
-  }
-</style>
-
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="chriscodelab_favicon_ccl_light.png">
+<script defer src="js/script.js"></script>
 </head>
-
 <body>
 
-<!-- NAVIGATION -->
 <nav>
   <div class="nav-container">
-    <strong>ChrisCodeLab</strong>
+    <a href="index.html">ChrisCodeLab</a>
     <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#stack">Tech</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="tech.html">Tech</a>
     </div>
   </div>
 </nav>
 
-<!-- HERO -->
 <header>
   <h1>Christopher M</h1>
   <p>Backend Engineer building scalable systems and reliable backend platforms.</p>
 
-  <a href="https://www.linkedin.com/in/chriscodelab/" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
-  <a href="https://github.com/ChrisCodeLab" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
-  <a href="https://leetcode.com/u/ChrisCodeLab/" target="_blank" rel="noopener noreferrer" class="btn">LeetCode</a>
-  <a href="https://www.youtube.com/@ChrisCodeLab" target="_blank" rel="noopener noreferrer" class="btn">YouTube</a>
+  <a href="https://github.com/ChrisCodeLab" class="btn">GitHub</a>
+  <a href="https://www.linkedin.com/in/chriscodelab/" class="btn">LinkedIn</a>
 </header>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-  <div class="container">
-    <h2>About</h2>
-    <p>
-      I'm Christopher, a Backend Software Engineer with 3.7 years of experience designing and deploying microservices for large-scale financial platforms.
-      I specialize in Java, Spring Boot, and distributed system design, with hands-on experience in AWS-hosted production environments and CI/CD-driven releases.
-
-      Currently at TCS, I contribute to a public financial platform composed of 38 microservices. My work includes backend service development, production deployments, internal monitoring tooling, and resolving live production issues.
-
-      I focus on building secure, scalable APIs and resilient systems that operate reliably in high-impact environments.
-    </p>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="section">
-  <div class="container">
-    <h2>Projects</h2>
-
-    <div class="project">
-      <strong>Veridex</strong>
-      <p>
-Veridex preserves audit evidence as immutable, review-ready records across audit cycles.
-
-An evidence-first audit platform designed to ensure traceability, integrity, and permanence in compliance workflows.
-
-• Append-only audit evidence storage
-• Complete version history & ownership tracking
-• Reusable artifacts across audit cycles
-• Consistent auditor-ready exports
-
-Built to provide durable audit proof across industries and evolving regulations.
-      </p>
-    </div>
-
-    <div class="project">
-      <strong>Student Project Showcase Platform</strong>
-      <p>
-A platform concept enabling students to share 5-minute project explanations,
-helping peers learn and enabling recruiters to evaluate real problem-solving ability.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<!-- TECH STACK -->
-<section id="stack" class="section">
-  <div class="container">
-    <h2>Tech Stack</h2>
-    <p>
-      Java • Python • SQL <br>
-      Spring Boot • Microservices • REST APIs <br>
-      PostgreSQL • Oracle • MySQL <br>
-      AWS • Jenkins • GitHub • AppDynamics <br>
-      Data Structures • OOP • System Design
-    </p>
-  </div>
-</section>
-
-<footer>
-  © 2026 ChrisCodeLab
-</footer>
-
-<!-- Scroll Reveal Animation -->
-<script>
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.style.opacity = 1;
-      entry.target.style.transform = "translateY(0)";
-    }
-  });
-});
-
-document.querySelectorAll('.section').forEach(section => {
-  section.style.opacity = 0;
-  section.style.transform = "translateY(30px)";
-  section.style.transition = "all 0.6s ease";
-  observer.observe(section);
-});
-</script>
-
+<footer>© 2026 ChrisCodeLab</footer>
 </body>
 </html>
