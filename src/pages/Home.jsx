@@ -184,7 +184,7 @@ function Home() {
                 <SiLeetcode />
               </a>
               <a
-                href="https://www.youtube.com/@ChrisCodeLab"
+                href="https://www.youtube.com/@chriscodelab_official"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"
