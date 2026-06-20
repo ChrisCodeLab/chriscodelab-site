@@ -50,7 +50,7 @@ function Footer() {
                 <FaLinkedin /> LinkedIn
               </a>
               <a
-                href="https://www.youtube.com/@ChrisCodeLab"
+                href="https://www.youtube.com/@chriscodelab_official"
                 className="footer-social-item"
                 target="_blank"
                 rel="noopener noreferrer"

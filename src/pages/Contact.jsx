@@ -59,7 +59,7 @@ function Contact() {
                   <FiGithub /> GitHub
                 </a>
                 <a
-                  href="https://www.youtube.com/@ChrisCodeLab"
+                  href="https://www.youtube.com/@chriscodelab_official"
                   className="contact-link-item"
                   target="_blank"
                   rel="noopener noreferrer"
